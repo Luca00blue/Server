@@ -22,6 +22,7 @@ public class Main {
         String Smaiuscola = Sricevuta.toUpperCase();
         out.println(Smaiuscola);
 
+        System.out.println(Sricevuta);
         mioSocket.close();
     }
 }
