@@ -17,5 +17,9 @@ public class Main {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(mioSocket.getInputStream()));
         PrintWriter out = new PrintWriter(mioSocket.getOutputStream(), true);
+
+        String Sricevuta = in.readLine();
+        String Smaiuscola = Sricevuta.toUpperCase();
+        out.println(Smaiuscola);
     }
 }
