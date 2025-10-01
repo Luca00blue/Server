@@ -21,5 +21,7 @@ public class Main {
         String Sricevuta = in.readLine();
         String Smaiuscola = Sricevuta.toUpperCase();
         out.println(Smaiuscola);
+
+        mioSocket.close();
     }
 }
